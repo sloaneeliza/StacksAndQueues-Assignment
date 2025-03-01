@@ -1,0 +1,9 @@
+Problem 5: Decode String
+	•	Time complexity: O(n)
+	◦	We iterate through the string exactly once where n is the length of the string. In the nested structures, we do not reprocess any character since each character is only processed once.
+	•	Space Complexity: O(n)
+	◦	Where n is the length of the input string. This is due to the our two stacks countStack and stringStack which is the worst case store up to n elements. 
+
+
+I was missing my explanation for space complexity
+for question 5 in my answer PDF. 
